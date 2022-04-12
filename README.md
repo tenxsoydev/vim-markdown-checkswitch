@@ -4,7 +4,7 @@ Checkbox status switcher for Markdown list items.
 
 ```vim
 " Switch checkbox status for line, range, or visual selection
-CheckMarkSwitch 
+:CheckMarkSwitch 
 
 " Cycle between NO checkbox, empty, and ticked checkboxes Or toggle between empty and ticked checkboxes
 let g:checkmark_switch_style = 'cycle'  " or 'toggle'
