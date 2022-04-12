@@ -10,8 +10,8 @@ endif
 
 " {{{ DEFAULT MAPPINGS
 if !exists("g:md_checkswitch_default_mappings_off") || !g:md_checkswitch_default_mappings_off
-  nnoremap <silent> <A-c> :call checkmark#switch()<CR>
-  vnoremap <silent> <A-c> :call checkmark#switch()<CR>gv
+  nnoremap <silent> <A-c> :call checkswitch#switch()<CR>
+  vnoremap <silent> <A-c> :call checkswitch#switch()<CR>gv
 endif
 " }}}
 
