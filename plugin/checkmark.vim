@@ -9,9 +9,7 @@ endif
 " }}}
 
 " {{{ DEFAULT MAPPINGS
-let g:checkmark_default_mappings = 1
-
-if exists('g:checkmark_default_mappings') || g:checkmark_default_mappings
+if !exists("g:checkmark_default_mappings_off") || !g:checkmark_default_mappings_off
   nnoremap <silent> <A-c> :call checkmark#switch()<CR>
   vnoremap <silent> <A-c> :call checkmark#switch()<CR>gv
 endif
