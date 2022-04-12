@@ -36,7 +36,7 @@ let g:checkmark_switch_style = 'cycle'  " or 'toggle'
 ## Mappings
 
 ```vim
-" Default mappings (can be disabled with `let g:checkmark_default_mappings_off=0`)
+" Default mappings (can be disabled with `let g:checkswitch_default_mappings_off=1`)
 nnoremap <silent> <A-c> :CheckSwitch<cr>
 vnoremap <silent> <A-c> :CheckSwitch<cr>gv
 ```
