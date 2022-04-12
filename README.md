@@ -29,14 +29,16 @@ use {
 ## Options
 
 ```vim
-" Cycle between NO checkbox, empty, and ticked checkboxes or toggle between empty and ticked checkboxes
+" Cycle between NO checkbox, empty, and ticked checkboxes 
+" or toggle between empty and ticked checkboxes
 let g:md_checkswitch_style = 'cycle'  " or 'toggle'
 ```
 
 ## Mappings
 
 ```vim
-" Default mappings (can be disabled with `let g:md_checkswitch_default_mappings_off=1`)
+" Default mapping Alt-c was inspired from VSCodes markdown plugin 
+" (can be disabled with `let g:md_checkswitch_default_mappings_off=1`)
 nnoremap <silent> <A-c> :CheckSwitch<cr>
 vnoremap <silent> <A-c> :CheckSwitch<cr>gv
 ```

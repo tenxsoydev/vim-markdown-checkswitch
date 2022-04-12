@@ -1,4 +1,3 @@
-" {{{ SWITCH
 function! markdown_checkswitch#switch()
 let current_line = getline('.')
 if match(current_line, '^\s*[*\-+] \[ \]') >= 0
@@ -28,4 +27,3 @@ if match(current_line, '^\s*#\{6}\s') >= 0
   return
 endif
 endfunction
-" }}}
