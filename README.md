@@ -1,11 +1,8 @@
 # vim-markdown-checkswitch
 
-Slim checkbox status switcher for Markdown list items.<br> 
-Serves as a good little addition for me to [preservim/vim-markdown](https://github.com/preservim/vim-markdown).
+Slim, configurable checkbox status switcher for Markdown list items.<br> 
 
-The cursor position stays unaffected while switching the checkbox status via shortcuts. 
-Which was a small problem I have experienced with another plugin for this purpose. 
-
+Serves as a good little addition to common vim-markdown-plugins like [preservim/vim-markdown][1].
 
 ## Preview
 
@@ -42,8 +39,10 @@ let g:md_checkswitch_style = 'cycle'  " or 'toggle'
 ## Mappings
 
 ```vim
-" Default mapping Alt-c was inspired from VSCodes markdown plugin 
+" Default mapping <Alt-c>. For those who are familiar with Codiums 'Markdown All in One' plugin 
 " (can be disabled with `let g:md_checkswitch_default_mappings_off=1`)
 nnoremap <silent> <A-c> :CheckSwitch<cr>
 vnoremap <silent> <A-c> :CheckSwitch<cr>gv
 ```
+
+[1]: https://github.com/preservim/vim-markdown
