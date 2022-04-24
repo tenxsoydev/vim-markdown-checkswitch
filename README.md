@@ -39,7 +39,7 @@ let g:md_checkswitch_style = 'cycle'  " or 'toggle'
 ## Mappings
 
 ```vim
-" Default mapping Alt-c was inspired from VSCodes markdown plugin 
+" Default mapping <Alt-c>. For those who are familiar with Codiums 'Markdown All in One' plugin 
 " (can be disabled with `let g:md_checkswitch_default_mappings_off=1`)
 nnoremap <silent> <A-c> :CheckSwitch<cr>
 vnoremap <silent> <A-c> :CheckSwitch<cr>gv
